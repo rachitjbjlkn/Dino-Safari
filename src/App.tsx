@@ -24,11 +24,11 @@ import {
    ============================================================ */
 
 const chaptersData = [
-  { name: 'Age of Dinosaurs', image: 'https://images.pexels.com/photos/33722876/pexels-photo-33722876.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1' },
-  { name: 'Fossils of Ancient Life', image: 'https://images.pexels.com/photos/9660900/pexels-photo-9660900.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1' },
-  { name: 'Reptiles of the Mesozoic', image: 'https://images.pexels.com/photos/11743337/pexels-photo-11743337.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1' },
-  { name: 'Marine Fossil Gallery', image: 'https://images.pexels.com/photos/410857/pexels-photo-410857.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1' },
-  { name: 'Prehistoric Giants', image: 'https://images.pexels.com/photos/16923102/pexels-photo-16923102.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1' },
+  { name: 'Age of Dinosaurs', image: 'https://images.pexels.com/photos/17194837/pexels-photo-17194837.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1' },
+  { name: 'Fossils of Ancient Life', image: 'https://images.pexels.com/photos/16922993/pexels-photo-16922993.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1' },
+  { name: 'Reptiles of the Mesozoic', image: 'https://images.pexels.com/photos/34522422/pexels-photo-34522422.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1' },
+  { name: 'Marine Fossil Gallery', image: 'https://images.pexels.com/photos/9660892/pexels-photo-9660892.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1' },
+  { name: 'Prehistoric Giants', image: 'https://images.pexels.com/photos/34522434/pexels-photo-34522434.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1' },
 ]
 
 const dinosaurList = [
@@ -502,7 +502,7 @@ function HeroSection({ showVideo }: { showVideo: boolean }) {
               className="w-full h-full object-cover"
             >
               <source
-                src="https://cdn.pixabay.com/video/2015/11/28/1438-147170157_medium.mp4"
+                src="https://cdn.pixabay.com/video/2021/07/21/82318-577813568_large.mp4"
                 type="video/mp4"
               />
             </video>
