@@ -24,11 +24,11 @@ import {
    ============================================================ */
 
 const chaptersData = [
-  { name: 'Age of Dinosaurs', image: 'https://images.pexels.com/photos/17194837/pexels-photo-17194837.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1' },
-  { name: 'Fossils of Ancient Life', image: 'https://images.pexels.com/photos/16922993/pexels-photo-16922993.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1' },
-  { name: 'Reptiles of the Mesozoic', image: 'https://images.pexels.com/photos/34522422/pexels-photo-34522422.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1' },
-  { name: 'Marine Fossil Gallery', image: 'https://images.pexels.com/photos/9660892/pexels-photo-9660892.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1' },
-  { name: 'Prehistoric Giants', image: 'https://images.pexels.com/photos/34522434/pexels-photo-34522434.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1' },
+  { name: 'Age of Dinosaurs', image: 'https://cdn.pixabay.com/photo/2013/07/12/14/29/tyrannosaurus-148320_1280.png' },
+  { name: 'Fossils of Ancient Life', image: 'https://cdn.pixabay.com/photo/2016/03/31/21/48/bones-1296668_1280.png' },
+  { name: 'Reptiles of the Mesozoic', image: 'https://cdn.pixabay.com/photo/2017/10/11/18/37/skull-2842031_1280.png' },
+  { name: 'Marine Fossil Gallery', image: 'https://cdn.pixabay.com/photo/2021/05/01/23/18/dinosaur-6222234_1280.png' },
+  { name: 'Prehistoric Giants', image: 'https://cdn.pixabay.com/photo/2021/05/23/20/10/dinosaur-6277236_1280.png' },
 ]
 
 const dinosaurList = [
@@ -708,7 +708,7 @@ function AncientCollectionSection({
         whileInView={{ y: '-78%', opacity: 1 }}
         viewport={{ once: true, margin: '100px' }}
         transition={{ duration: 1.4, ease: 'easeOut' }}
-        src="https://images.dinosaurpictures.org/Pterodactyl/Pterodactyl_ec4d509d.jpg"
+        src="https://upload.wikimedia.org/wikipedia/commons/2/29/Pterodactyl_%28PSF%29.png"
         alt="Pterodactyl"
         className="absolute top-0 left-1/2 -translate-x-1/2 w-[160vw] md:w-[1100px] pointer-events-none z-0"
       />
