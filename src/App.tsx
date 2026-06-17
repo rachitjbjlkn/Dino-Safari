@@ -24,11 +24,11 @@ import {
    ============================================================ */
 
 const chaptersData = [
-  { name: 'Age of Dinosaurs', image: 'https://cdn.pixabay.com/photo/2013/07/12/14/29/tyrannosaurus-148320_1280.png' },
-  { name: 'Fossils of Ancient Life', image: 'https://cdn.pixabay.com/photo/2016/03/31/21/48/bones-1296668_1280.png' },
-  { name: 'Reptiles of the Mesozoic', image: 'https://cdn.pixabay.com/photo/2017/10/11/18/37/skull-2842031_1280.png' },
-  { name: 'Marine Fossil Gallery', image: 'https://cdn.pixabay.com/photo/2021/05/01/23/18/dinosaur-6222234_1280.png' },
-  { name: 'Prehistoric Giants', image: 'https://cdn.pixabay.com/photo/2021/05/23/20/10/dinosaur-6277236_1280.png' },
+  { name: 'Age of Dinosaurs', image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/c/c5/Tyrannosaurus_rex_skeleton_%28cast_of_specimen_MOR_555%29_at_Cleveland_Museum_of_Natural_History.jpg/1280px-Tyrannosaurus_rex_skeleton_%28cast_of_specimen_MOR_555%29_at_Cleveland_Museum_of_Natural_History.jpg' },
+  { name: 'Fossils of Ancient Life', image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/9/9f/FMNH_Maiasaura_fossil_skeleton.jpg/1280px-FMNH_Maiasaura_fossil_skeleton.jpg' },
+  { name: 'Reptiles of the Mesozoic', image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/3/30/Replica_Carnotaurus_skeleton%2C_DINOSAUR_2.JPG/1280px-Replica_Carnotaurus_skeleton%2C_DINOSAUR_2.JPG' },
+  { name: 'Marine Fossil Gallery', image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/c/cb/Bunker_Tylosaur.png/1280px-Bunker_Tylosaur.png' },
+  { name: 'Prehistoric Giants', image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/7/72/Stegosaurus_ungulatus.jpg/1280px-Stegosaurus_ungulatus.jpg' },
 ]
 
 const dinosaurList = [
@@ -502,7 +502,7 @@ function HeroSection({ showVideo }: { showVideo: boolean }) {
               className="w-full h-full object-cover"
             >
               <source
-                src="https://cdn.pixabay.com/video/2021/07/21/82318-577813568_large.mp4"
+                src="https://videos.pexels.com/video-files/34766999/14739290_2160_3840_30fps.mp4"
                 type="video/mp4"
               />
             </video>
@@ -708,7 +708,7 @@ function AncientCollectionSection({
         whileInView={{ y: '-78%', opacity: 1 }}
         viewport={{ once: true, margin: '100px' }}
         transition={{ duration: 1.4, ease: 'easeOut' }}
-        src="https://upload.wikimedia.org/wikipedia/commons/2/29/Pterodactyl_%28PSF%29.png"
+        src="https://upload.wikimedia.org/wikipedia/commons/a/a7/Darwinopterus.jpg"
         alt="Pterodactyl"
         className="absolute top-0 left-1/2 -translate-x-1/2 w-[160vw] md:w-[1100px] pointer-events-none z-0"
       />
@@ -788,7 +788,7 @@ function AncientCollectionSection({
                       alt={chapter.name}
                       crossOrigin="anonymous"
                       referrerPolicy="no-referrer"
-                      className="absolute inset-0 w-full h-full object-contain mix-blend-lighten"
+                      className="absolute inset-0 w-full h-full object-contain mix-blend-lighten brightness-[2] contrast-[5]"
                     />
                   </motion.div>
                 </AnimatePresence>
@@ -861,6 +861,9 @@ function AncientCollectionSection({
       <div className="border-t border-gray-800">
         <div className="px-8 py-8 text-[10px] font-mono tracking-widest text-gray-400 uppercase bg-[#0a0a0a]">
           RACHIT'S HISTORICAL MUSEUM — DIGGING INTO OUR PLANET'S PAST
+        </div>
+        <div className="px-8 pb-4 text-[8px] font-mono tracking-wider text-gray-600 bg-[#0a0a0a]">
+          Fossil images via Wikimedia Commons (CC-BY-SA): Robosorne, Zissoudisctrucker, BrokenSphere, Perry Quan, H. Zell
         </div>
       </div>
     </section>
